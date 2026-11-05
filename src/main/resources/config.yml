@@ -1,0 +1,26 @@
+# Distance (blocks) of each extra head to the left / right of the real head.
+spacing: 3.0
+
+# Size of the head model (the vanilla dragon head item is scaled by this).
+scale: 2.5
+
+# Move the model up (+) or down (-) if it looks too high / low.
+y-offset: 0.0
+
+# Move the two extra heads forward (+) or back (-) compared to the real head.
+forward-offset: 0.0
+
+# Size of the hitbox of each extra head. 1 = 0.5 blocks, 2 = 1.0 (same as the real head), 3 = 1.5, 4 = 2.0 ...
+hitbox-size: 3
+
+# Turn on if the head models look backwards.
+flip-facing: false
+
+# true = only players (and their arrows etc.) can damage the extra heads.
+only-players: true
+
+# 1.0 = same damage the real head takes.
+damage-multiplier: 1.0
+
+# false = only worlds of type THE_END get extra heads.
+all-worlds: false
